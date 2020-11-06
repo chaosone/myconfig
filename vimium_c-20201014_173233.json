@@ -1,0 +1,55 @@
+{
+	"name": "Vimium C",
+	"@time": "2020/10/14 下午5:32:33",
+	"time": 1602667953129,
+	"environment": {
+		"extension": "1.86.2",
+		"platform": "linux"
+	},
+	"autoReduceMotion": true,
+	"grabBackFocus": true,
+	"keyMappings": [
+		"unmap t",
+		"#map k focusInput",
+		"map o Vomnibar.activateInNewTab",
+		"map O Vomnibar.activate",
+		"map tl nextTab",
+		"map th previousTab",
+		"map tn createTab",
+		"map sh Vomnibar.activateHistory",
+		"map b Vomnibar.activateBookmarksInNewTab",
+		"map B Vomnibar.activateBookmarks",
+		"map <c-p> Vomnibar.activateTabSelection",
+		"map to closeTabsOnRight",
+		"map zo zoomOut",
+		"map zi zoomIn",
+		""
+	],
+	"searchEngines": [
+		"w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia",
+		"# More examples.",
+		"#",
+		"# (Vimium C supports search completion Wikipedia, as",
+		"# above, and for these.)",
+		"#",
+		"https://www.google.com/search?client=firefox-b-e&q=$S google",
+		"bd:https://www.baidu.com/s?ie=utf-8&wd=%s 百度",
+		"g: https://www.google.com/search?q=%s Google",
+		"# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...",
+		"# y: https://www.youtube.com/results?search_query=%s Youtube",
+		"# gm: https://www.google.com/maps?q=%s Google maps",
+		"bi: https://www.bing.com/search?q=%s Bing",
+		"# d: https://duckduckgo.com/?q=%s DuckDuckGo",
+		"# az: https://www.amazon.com/s/?field-keywords=%s Amazon",
+		"# qw: https://www.qwant.com/?q=%s Qwant",
+		""
+	],
+	"searchUrl": "https://www.google.com/search?client=firefox-b-e&q=$S google",
+	"vomnibarOptions": {
+		"maxMatches": 15,
+		"queryInterval": 333,
+		"sizes": "77,3,44",
+		"styles": "mono-url",
+		"actions": ""
+	}
+}
